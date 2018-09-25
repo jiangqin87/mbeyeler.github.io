@@ -5,7 +5,7 @@
     <url>
     
       <loc>https://mbeyeler.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+      <lastmod>2018-07-15T20:06:53+01:00</lastmod>
     </url>
     
   
@@ -13,7 +13,7 @@
     <url>
     
       <loc>https://mbeyeler.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+      <lastmod>2018-04-09T19:10:15+01:00</lastmod>
     </url>
     
   
@@ -21,16 +21,7 @@
     <url>
     
       <loc>https://mbeyeler.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://mbeyeler.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2018-04-09T19:10:15+01:00</lastmod>
     </url>
     
   
@@ -38,6 +29,15 @@
     <url>
     
       <loc>https://mbeyeler.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://mbeyeler.github.io/</loc>
+      <lastmod>2018-08-12T22:57:56+01:00</lastmod>
       <priority>0</priority>
     </url>
     
