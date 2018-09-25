@@ -10,5 +10,32 @@
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Biophysical model of axonal stimulation in epiretinal visual prostheses</title>
+      <link>https://mbeyeler.github.io/publication/biophysical-model-axonal-stimulation/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/biophysical-model-axonal-stimulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies</title>
+      <link>https://mbeyeler.github.io/publication/learning-to-see-again/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/learning-to-see-again/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
+      <link>https://mbeyeler.github.io/publication/pulse2percept/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/pulse2percept/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
