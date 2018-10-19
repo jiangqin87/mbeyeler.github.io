@@ -1,0 +1,35 @@
+p {
+	text-align: justify;
+	margin-bottom: 0.5rem;
+}
+
+h5 {
+	font-weight: normal;
+	font-size: 0.8rem;
+    line-height: 1.65;
+	text-align: justify;
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+small {
+	font-size: 0.8em;
+	line-height: 50%;
+	margin-bottom: 0;
+}
+
+.section-img {
+	width: 85%;
+	margin-top: 1rem;
+	text-align: left;
+	box-shadow: 4px 4px 5px #aaa;
+}
+
+.caption {
+	width: 85%;
+	font-size: 0.6rem;
+	text-align: justify;
+	line-height: normal;
+	margin: 0.5rem 0;
+	padding: 0;
+}
