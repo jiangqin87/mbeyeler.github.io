@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="By 2020 roughly 20 million people worldwide will suffer from photoreceptor diseases such as retinitis pigmentosa and age-related macular degeneration, and a variety of retinal sight restoration technologies are being developed to target these diseases. One technology, analogous to cochlear implants, uses a grid of electrodes to stimulate remaining retinal cells. Two brands of retinal prostheses are currently approved for implantation in patients with late stage photoreceptor disease. Clinical experience with these implants has made it apparent that the vision restored by these devices differs substantially from normal sight. To better understand the outcomes of this technology, we developed pulse2percept, an open-source Python implementation of a computational model that predicts the perceptual experience of retinal prosthesis patients across a wide range of implant configurations. A modular and extensible user interface exposes the different building blocks of the software, making it easy for users to simulate novel implants, stimuli, and retinal models. We hope that this library will contribute substantially to the field of medicine by providing a tool to accelerate the development of visual prostheses.">
+  <meta name="description" content="Degenerative retinal diseases such as retinitis pigmentosa and macular degeneration cause irreversible vision loss in more than 10 million people worldwide. Retinal prostheses, now implanted in more than 250 patients worldwide, electrically stimulate surviving cells in order to evoke neuronal responses that are interpreted by the brain as visual percepts (&#39;phosphenes&#39;). However, instead of seeing focal spots of light, users of current epiretinal devices perceive highly distorted phosphenes, which vary in shape not just across subjects but also across electrodes, resulting in distorted percepts. We characterized these distortions by asking users of the Argus retinal prosthesis system (Second Sight Medical Products, Inc.) to draw percepts elicited by single-electrode stimulation on a touchscreen. Based on ophthalmic fundus photographs, we then developed a computational model of the topographic organization of optic nerve fiber bundles in each subject&#39;s retina, and used this model to successfully simulate predicted patient percepts. Our model shows that activation of passing axon fibers contributes to the rich repertoire of phosphene shapes reported by patients in our psychophysical measurements, successfully replicating visual percepts ranging from &#39;blobs&#39; to oriented &#39;streaks&#39; and &#39;wedges&#39; depending on the retinal location of the stimulating electrode. This model provides a first step towards future devices that incorporate stimulation strategies tailored to each individual patient&#39;s retinal neurophysiology.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://mbeyeler.github.io/publication/pulse2percept/">
+  <link rel="alternate" hreflang="en-us" href="https://mbeyeler.github.io/publication/axon-map-model/">
 
   
 
@@ -77,7 +77,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://mbeyeler.github.io/publication/pulse2percept/">
+  <link rel="canonical" href="https://mbeyeler.github.io/publication/axon-map-model/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -85,12 +85,12 @@
   <meta property="twitter:creator" content="@mbeyelerCH">
   
   <meta property="og:site_name" content="Michael Beyeler">
-  <meta property="og:url" content="https://mbeyeler.github.io/publication/pulse2percept/">
-  <meta property="og:title" content="pulse2percept: A Python-based simulation framework for bionic vision | Michael Beyeler">
-  <meta property="og:description" content="By 2020 roughly 20 million people worldwide will suffer from photoreceptor diseases such as retinitis pigmentosa and age-related macular degeneration, and a variety of retinal sight restoration technologies are being developed to target these diseases. One technology, analogous to cochlear implants, uses a grid of electrodes to stimulate remaining retinal cells. Two brands of retinal prostheses are currently approved for implantation in patients with late stage photoreceptor disease. Clinical experience with these implants has made it apparent that the vision restored by these devices differs substantially from normal sight. To better understand the outcomes of this technology, we developed pulse2percept, an open-source Python implementation of a computational model that predicts the perceptual experience of retinal prosthesis patients across a wide range of implant configurations. A modular and extensible user interface exposes the different building blocks of the software, making it easy for users to simulate novel implants, stimuli, and retinal models. We hope that this library will contribute substantially to the field of medicine by providing a tool to accelerate the development of visual prostheses.">
+  <meta property="og:url" content="https://mbeyeler.github.io/publication/axon-map-model/">
+  <meta property="og:title" content="A model of ganglion axon pathways accounts for percepts elicited by retinal implants | Michael Beyeler">
+  <meta property="og:description" content="Degenerative retinal diseases such as retinitis pigmentosa and macular degeneration cause irreversible vision loss in more than 10 million people worldwide. Retinal prostheses, now implanted in more than 250 patients worldwide, electrically stimulate surviving cells in order to evoke neuronal responses that are interpreted by the brain as visual percepts (&#39;phosphenes&#39;). However, instead of seeing focal spots of light, users of current epiretinal devices perceive highly distorted phosphenes, which vary in shape not just across subjects but also across electrodes, resulting in distorted percepts. We characterized these distortions by asking users of the Argus retinal prosthesis system (Second Sight Medical Products, Inc.) to draw percepts elicited by single-electrode stimulation on a touchscreen. Based on ophthalmic fundus photographs, we then developed a computational model of the topographic organization of optic nerve fiber bundles in each subject&#39;s retina, and used this model to successfully simulate predicted patient percepts. Our model shows that activation of passing axon fibers contributes to the rich repertoire of phosphene shapes reported by patients in our psychophysical measurements, successfully replicating visual percepts ranging from &#39;blobs&#39; to oriented &#39;streaks&#39; and &#39;wedges&#39; depending on the retinal location of the stimulating electrode. This model provides a first step towards future devices that incorporate stimulation strategies tailored to each individual patient&#39;s retinal neurophysiology."><meta property="og:image" content="https://mbeyeler.github.io/img/headers/axon-map-model.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-07-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2018-11-05T00:00:00-08:00">
   
   <meta property="article:modified_time" content="2018-11-05T23:08:12-08:00">
   
@@ -99,7 +99,7 @@
 
   
 
-  <title>pulse2percept: A Python-based simulation framework for bionic vision | Michael Beyeler</title>
+  <title>A model of ganglion axon pathways accounts for percepts elicited by retinal implants | Michael Beyeler</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -235,13 +235,22 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
+<div class="article-header">
+  
+  
+    <img src="/img/headers/axon-map-model.jpg" class="article-banner" itemprop="image">
+  
+
+  
+</div>
+
 
 
   <div class="article-container">
-    <h1 itemprop="name">pulse2percept: A Python-based simulation framework for bionic vision</h1>
+    <h1 itemprop="name">A model of ganglion axon pathways accounts for percepts elicited by retinal implants</h1>
     <span class="pub-authors" itemprop="author">
       
-      M Beyeler, GM Boynton, I Fine, A Rokem
+      M Beyeler, D Nanduri, JD Weiland, A Rokem, GM Boynton, I Fine
       
     </span>
     <span class="pull-right">
@@ -250,35 +259,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=pulse2percept%3a%20A%20Python-based%20simulation%20framework%20for%20bionic%20vision&amp;url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2fpulse2percept%2f"
+         href="https://twitter.com/intent/tweet?text=A%20model%20of%20ganglion%20axon%20pathways%20accounts%20for%20percepts%20elicited%20by%20retinal%20implants&amp;url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2faxon-map-model%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmbeyeler.github.io%2fpublication%2fpulse2percept%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmbeyeler.github.io%2fpublication%2faxon-map-model%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2fpulse2percept%2f&amp;title=pulse2percept%3a%20A%20Python-based%20simulation%20framework%20for%20bionic%20vision"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2faxon-map-model%2f&amp;title=A%20model%20of%20ganglion%20axon%20pathways%20accounts%20for%20percepts%20elicited%20by%20retinal%20implants"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2fpulse2percept%2f&amp;title=pulse2percept%3a%20A%20Python-based%20simulation%20framework%20for%20bionic%20vision"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmbeyeler.github.io%2fpublication%2faxon-map-model%2f&amp;title=A%20model%20of%20ganglion%20axon%20pathways%20accounts%20for%20percepts%20elicited%20by%20retinal%20implants"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=pulse2percept%3a%20A%20Python-based%20simulation%20framework%20for%20bionic%20vision&amp;body=https%3a%2f%2fmbeyeler.github.io%2fpublication%2fpulse2percept%2f">
+         href="mailto:?subject=A%20model%20of%20ganglion%20axon%20pathways%20accounts%20for%20percepts%20elicited%20by%20retinal%20implants&amp;body=https%3a%2f%2fmbeyeler.github.io%2fpublication%2faxon-map-model%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -292,7 +301,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">By 2020 roughly 20 million people worldwide will suffer from photoreceptor diseases such as retinitis pigmentosa and age-related macular degeneration, and a variety of retinal sight restoration technologies are being developed to target these diseases. One technology, analogous to cochlear implants, uses a grid of electrodes to stimulate remaining retinal cells. Two brands of retinal prostheses are currently approved for implantation in patients with late stage photoreceptor disease. Clinical experience with these implants has made it apparent that the vision restored by these devices differs substantially from normal sight. To better understand the outcomes of this technology, we developed pulse2percept, an open-source Python implementation of a computational model that predicts the perceptual experience of retinal prosthesis patients across a wide range of implant configurations. A modular and extensible user interface exposes the different building blocks of the software, making it easy for users to simulate novel implants, stimuli, and retinal models. We hope that this library will contribute substantially to the field of medicine by providing a tool to accelerate the development of visual prostheses.</p>
+    <p class="pub-abstract" itemprop="text">Degenerative retinal diseases such as retinitis pigmentosa and macular degeneration cause irreversible vision loss in more than 10 million people worldwide. Retinal prostheses, now implanted in more than 250 patients worldwide, electrically stimulate surviving cells in order to evoke neuronal responses that are interpreted by the brain as visual percepts (&lsquo;phosphenes&rsquo;). However, instead of seeing focal spots of light, users of current epiretinal devices perceive highly distorted phosphenes, which vary in shape not just across subjects but also across electrodes, resulting in distorted percepts. We characterized these distortions by asking users of the Argus retinal prosthesis system (Second Sight Medical Products, Inc.) to draw percepts elicited by single-electrode stimulation on a touchscreen. Based on ophthalmic fundus photographs, we then developed a computational model of the topographic organization of optic nerve fiber bundles in each subject&rsquo;s retina, and used this model to successfully simulate predicted patient percepts. Our model shows that activation of passing axon fibers contributes to the rich repertoire of phosphene shapes reported by patients in our psychophysical measurements, successfully replicating visual percepts ranging from &lsquo;blobs&rsquo; to oriented &lsquo;streaks&rsquo; and &lsquo;wedges&rsquo; depending on the retinal location of the stimulating electrode. This model provides a first step towards future devices that incorporate stimulation strategies tailored to each individual patient&rsquo;s retinal neurophysiology.</p>
     
 
     
@@ -303,8 +312,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="https://mbeyeler.github.io/publication/#2">
-              Peer-Reviewed Conference Publication
+            <a href="https://mbeyeler.github.io/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -321,7 +330,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">Proceedings of the 16th Python in Science Conference (SciPy), p.81-88</div>
+          <div class="col-xs-12 col-sm-9">bioRxiv 453035</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -335,7 +344,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Jul 2017
+            Nov 2018
           </div>
         </div>
       </div>
@@ -354,22 +363,11 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.biorxiv.org/content/early/2017/07/10/148015" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://www.biorxiv.org/content/early/2018/10/25/453035" target="_blank" rel="noopener">
   Preprint
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://conference.scipy.org/proceedings/scipy2017/pdfs/michael_beyeler.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-<a class="btn btn-primary btn-outline" href="https://github.com/uwescience/pulse2percept" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -377,14 +375,9 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://figshare.com/articles/pulse2percept_A_Python-based_simulation_framework_for_bionic_vision/5198575" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
-<a class="btn btn-primary btn-outline" href="https://youtu.be/KxsNAa-P2X4" target="_blank" rel="noopener">
-  Video
-</a>
+
 
 
 
