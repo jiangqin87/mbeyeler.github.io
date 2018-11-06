@@ -669,8 +669,10 @@ article {
 }
 
 .article-banner {
+  padding: 0 10%;
   width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .article-header-caption {
