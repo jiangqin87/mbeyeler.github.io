@@ -21,5 +21,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>3D visual response properties of MSTd emerge from an efficient, sparse population code</title>
+      <link>https://mbeyeler.github.io/publication/sparse-decomposition-model/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/sparse-decomposition-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A GPU-accelerated cortical neural network model for visually guided robot navigation</title>
+      <link>https://mbeyeler.github.io/publication/gpu-visually-guided-robot-navigation/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/gpu-visually-guided-robot-navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient spiking neural network model of pattern motion selectivity in visual cortex</title>
+      <link>https://mbeyeler.github.io/publication/snn-pattern-motion/</link>
+      <pubDate>Wed, 05 Feb 2014 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/snn-pattern-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like learning rule</title>
+      <link>https://mbeyeler.github.io/publication/categorization-mnist-stdp/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/categorization-mnist-stdp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

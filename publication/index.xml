@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters</title>
+      <link>https://mbeyeler.github.io/publication/carlsim4/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/carlsim4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Learning to see again: Biological constraints on cortical plasticity and the implications for sight restoration technologies</title>
       <link>https://mbeyeler.github.io/publication/learning-to-see-again/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 -0700</pubDate>
@@ -45,6 +54,69 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>https://mbeyeler.github.io/publication/pulse2percept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D visual response properties of MSTd emerge from an efficient, sparse population code</title>
+      <link>https://mbeyeler.github.io/publication/sparse-decomposition-model/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/sparse-decomposition-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A GPU-accelerated cortical neural network model for visually guided robot navigation</title>
+      <link>https://mbeyeler.github.io/publication/gpu-visually-guided-robot-navigation/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/gpu-visually-guided-robot-navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks</title>
+      <link>https://mbeyeler.github.io/publication/carlsim3/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/carlsim3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-based robust road lane detection in urban environments</title>
+      <link>https://mbeyeler.github.io/publication/vision-road-lane-detection/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/vision-road-lane-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient spiking neural network model of pattern motion selectivity in visual cortex</title>
+      <link>https://mbeyeler.github.io/publication/snn-pattern-motion/</link>
+      <pubDate>Wed, 05 Feb 2014 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/snn-pattern-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like learning rule</title>
+      <link>https://mbeyeler.github.io/publication/categorization-mnist-stdp/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/categorization-mnist-stdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring olfactory sensory networks: Simulations and hardware emulation</title>
+      <link>https://mbeyeler.github.io/publication/exploring-olfactory-networks/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/exploring-olfactory-networks/</guid>
       <description></description>
     </item>
     

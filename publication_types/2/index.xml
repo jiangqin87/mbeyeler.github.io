@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jul 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://mbeyeler.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CARLsim 4: An open source library for large scale, biologically detailed spiking neural network simulation using heterogeneous clusters</title>
+      <link>https://mbeyeler.github.io/publication/carlsim4/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/carlsim4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
@@ -18,6 +27,33 @@
       <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>https://mbeyeler.github.io/publication/pulse2percept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARLsim 3: A user-friendly and highly optimized library for the creation of neurobiologically detailed spiking neural networks</title>
+      <link>https://mbeyeler.github.io/publication/carlsim3/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/carlsim3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-based robust road lane detection in urban environments</title>
+      <link>https://mbeyeler.github.io/publication/vision-road-lane-detection/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/vision-road-lane-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring olfactory sensory networks: Simulations and hardware emulation</title>
+      <link>https://mbeyeler.github.io/publication/exploring-olfactory-networks/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 -0700</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/exploring-olfactory-networks/</guid>
       <description></description>
     </item>
     
