@@ -101,6 +101,15 @@
     </item>
     
     <item>
+      <title>GPGPU accelerated simulation and parameter tuning for neuromorphic applications</title>
+      <link>https://mbeyeler.github.io/publication/gpgpu-accelerated-simulation-parameter-tuning/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 -0800</pubDate>
+      
+      <guid>https://mbeyeler.github.io/publication/gpgpu-accelerated-simulation-parameter-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like learning rule</title>
       <link>https://mbeyeler.github.io/publication/categorization-mnist-stdp/</link>
       <pubDate>Sun, 01 Dec 2013 00:00:00 -0800</pubDate>
